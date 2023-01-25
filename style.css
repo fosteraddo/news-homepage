@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.w{
+    font-size: 60px;
+}
+
+.row{
+    padding-top: 3%;
+}
+
+.image-web{
+  padding-right: 30px;
+  
+}
+
+.future{
+    display: inline-flex;
+    padding-right: 10%;
+    background-color: aqua;
+    /* position: absolute; */
+}
+
+.future-mission{
+    display: inline-flex;
+    margin-left: 60%;
+    
+}
+
+.more{
+    background-color: #FF5733;
+    width: 40%px;
+    color: #fff;
+    margin-left: 60%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.container{
+    background-color: black;
+    color: #fff;
+}
+
+
+
+.retro-phrase{
+    left: 20px;
+    
+}
+
+/* last container images */
+
+
+

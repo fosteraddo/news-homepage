@@ -9,38 +9,35 @@
   <title>Frontend Mentor | News homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  
   <nav class="navbar navbar-expand-lg ">
 
-    <h1><a class="w bold navbar-brand" href="">W.</a></h1>
+    <h1><a class="w navbar-brand" href="">W.</a></h1>
     
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto" >
-            <li class="nav-item">
-                <a class="nav-link" href="#footer">Home</a>
+            <li class="nav-item dark-grayish-blue">
+                <a class="nav-link" href="">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#pricing">New</a>
+                <a class="nav-link" href="#">New</a>
             </li>    
             <li class="nav-item">
-                <a class="nav-link" href="#cta">Popular</a>
+                <a class="nav-link" href="#">Popular</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cta">Trending</a>
+              <a class="nav-link" href="#">Trending</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#cta">Categories</a>
+            <a class="nav-link" href="#">Categories</a>
         </li>
         </ul>
         </div>
@@ -52,41 +49,61 @@
   <div class="col-lg-6">
 
     <div class="image-web">
-    <img src="images/image-web-3-desktop.jpg" alt="image-web-3-desktop">
+    <img class="img-web" src="images/image-web-3-desktop.jpg" alt="image-web-3-desktop">
   </div>
 
-  <div class="future bold">
+  <div class="future bold ">
      <h1>The Bright Future of Web 3.0?</h1>
   </div>
 
-     <div class="future-mission"> 
-      <p>
-       We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+     <div class="future-mission "> 
+      <p class="para">
+       We dive into the next evolution of the web that claims to put 
+       the power of the platforms back into the hands of the people. 
        But is it really fulfilling its promise?
      </p>
      </div>
 
      <div class="more">
-       <p>Read more</p>
+       <a href="">Read more</a>
     </div>
       
-
     </div>
 
  <div class="container col-lg-4">
 
-<div>
+<div class="supernova">
   New 
 </div>
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+ <div class="">
+  <div class="cars">Hydrogen VS Electric Cars</div>
+  <div class="grayish-blue">
+    <p class="para">Will hydrogen-fueled cars ever catch up to EVs?</p>
+  </div>
+</div>
+
 <hr>
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
+<div class="ai">
+  <div class="ai-artistry">
+    The Downsides of AI Artistry
+  </div>
+  <div class="grayish-blue">
+  <p class="para">What are the possible adverse effects of on-demand AI image generation?</p>
+  </div>
+</div>
+
 <hr>
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+  <div class="vc">
+    <div class="vc-funding">
+      Is VC Funding Drying Up?
+    </div>
+
+    <div class="grayish-blue">
+      <p class="para">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>
+
+  </div>
  </div>
 
 </div>
@@ -95,41 +112,34 @@
  <section class="last-container">
   <div class="row">
 
- <div class="col-lg-4 retro">
-     <div class="retro-phrase">
-      <span>01</span>
+  <div class="col-lg-4 retro">
+    <img class="retro-img img" src="images\image-retro-pcs.jpg" alt="">
+    <div class="retro-phrase">
+      <span class="grayish-blue">01</span>
         <p class="bold">Reviving Retro PCs</p>
-        What happens when old PCs are given modern upgrades?
-      </div>
-
-      <div class="retro-img">
-        <img src="images\image-retro-pcs.jpg" alt="">
-      </div>
+        <p class="para">What happens when old PCs are given modern upgrades?</p>
+    </div>
+          
   </div>
 
   <div class="col-lg-4 top-laptop">
+    <img class="top-laptop-img img" src="images\image-top-laptops.jpg" alt="">
     <div class="top-laptop-phrase">
-      <span>02</span>
+      <span class="grayish-blue">02</span>
       <p class="bold">Top 10 Laptops of 2022</p>
-      Our best picks for various needs and budgets.
+      <p class="para">Our best picks for various needs and budgets.</p>
     </div>
-
-    <div class="laptop-img">
-      <img src="images\image-top-laptops.jpg" alt="">
-    </div>
+      
   </div>
    
   <div class="col-lg-4 ">
+    <img class="gaming-img img" src="images\image-gaming-growth.jpg" alt="">
     <div class="gaming-phrase">
-    <span>03</span>
+    <span class="grayish-blue">03</span>
     <p class="bold">The Growth of Gaming</p>
-    How the pandemic has sparked fresh opportunities.
+    <p class="para">How the pandemic has sparked fresh opportunities.</p>
   </div>
-
-    <div class="gaming-img">
-      <img src="images\image-gaming-growth.jpg" alt="">
-    </div>
-
+     
   </div>
 
 </div>
@@ -142,5 +152,6 @@
   </div>
 
   <script src="index.js"></script>
+
 </body>
 </html>
